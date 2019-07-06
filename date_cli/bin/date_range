@@ -75,7 +75,7 @@ def main():
         print('Error echo format: {format}'.format(format=format))
         exit(1)
 
-    if flag_only.lower() not in ('s', 'se', 'es', 'all'):
+    if flag_only.lower() not in ('s', 'e', 'se', 'es', 'all'):
         print('Error only parameters must be "s" or "se" or "all"')
         exit(1)
 

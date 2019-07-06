@@ -1,13 +1,5 @@
 from setuptools import setup, find_packages
 
-LONG_DESCRIPTION = """
-Overview
---------------
-
-+ date_range: help you generate date between 2 date
-
-"""
-
 CLASSIFIERS = [
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
@@ -31,11 +23,10 @@ setup(
     author='Hsueh-Hung Cheng',
     author_email='jhengsh.email@gmail.com',
     url='https://github.com/Jhengsh/tidyframe',
-    description='Data Command for shell',
+    description='Date Command for shell',
     scripts=['date_cli/bin/date_range'],
-    long_description=LONG_DESCRIPTION,
+    long_description=open('README.rst').read().strip(),
     classifiers=CLASSIFIERS,
-    keywords=['pandas', 'tidy'],
     packages=find_packages(),
     license='MIT',
     platforms='any',
