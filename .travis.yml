@@ -23,6 +23,7 @@ matrix:
       dist: xenial
       sudo: true
 install:
+  - cd date-cli && python setup.py install
   - pip install pytest-cov
 script:
   - pytest
