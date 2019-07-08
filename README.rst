@@ -2,6 +2,9 @@
 date-cli
 ========
 
+.. image:: https://travis-ci.org/Jhengsh/date-cli.svg?branch=master
+   :target: https://travis-ci.org/Jhengsh/date-cli
+   :alt: Build Status
 
 This package provides date command line.
 
