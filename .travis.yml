@@ -1,16 +1,7 @@
 language: python
 matrix:
   include:
-    - python: 2.6
-      dist: trusty
-      sudo: false
     - python: 2.7
-      dist: trusty
-      sudo: false
-    - python: 3.3
-      dist: trusty
-      sudo: false
-    - python: 3.4
       dist: trusty
       sudo: false
     - python: 3.5
@@ -23,7 +14,7 @@ matrix:
       dist: xenial
       sudo: true
 install:
-  - cd date-cli && python setup.py install
-  - pip install pytest-cov
+  - cd ~/ && git clone https://github.com/Jhengsh/date-cli.git && cd ~/date-cli && python setup.py install
+  - pip install pytest
 script:
-  - pytest
+  - cd ~/date-cli && pytest
