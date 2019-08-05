@@ -6,6 +6,10 @@ date-cli
    :target: https://travis-ci.org/Jhengsh/date-cli
    :alt: Build Status
 
+.. image:: https://img.shields.io/pypi/v/date-cli.svg
+   :target: https://pypi.org/project/date-cli/
+   :alt: Latest Release
+
 This package provides date command line.
 
 * date_range: help you generate date between 2 date(format: yyyymmdd)
