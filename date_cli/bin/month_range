@@ -71,7 +71,7 @@ def main():
         if start_date.year == end_date.year and start_date.month == end_date.month:
             need_months = 1
         else:
-            need_months = int((end_date - start_date).days / 30) + 2
+            need_months = int((end_date - start_date).days / 30) + 1
         if flag_reverse == 'Y':
             for x in reversed(range(need_months)):
                 echo_date = (start_date + relativedelta(months=x))
