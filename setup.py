@@ -22,7 +22,7 @@ setup(
     version=open('VERSION').read().strip(),
     author='Hsueh-Hung Cheng',
     author_email='jhengsh.email@gmail.com',
-    url='https://github.com/Jhengsh/tidyframe',
+    url='https://github.com/Jhengsh/date-cli',
     description='Date Command for shell',
     scripts=['date_cli/bin/date_range', 'date_cli/bin/month_range'],
     long_description=open('README.rst').read().strip(),

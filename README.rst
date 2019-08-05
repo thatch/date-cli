@@ -9,12 +9,17 @@ date-cli
 This package provides date command line.
 
 * date_range: help you generate date between 2 date(format: yyyymmdd)
+* month_range: help you generate date between 2 month(format: yyyymm)
 
 ------------
 Installation
 ------------
 
-The easiest way to install date-cli is to use `pip` in a ``virtualenv``::
+Method 1: Using PyPI
+
+    $ pip install date-cli
+
+Method 2: Using git
 
     $ pip install git+https://github.com/Jhengsh/date-cli.git
 
@@ -35,3 +40,8 @@ Basic Use::
     # python execute.py --yyyymmdd 20200303;
     # python execute.py --yyyymmdd 20200304;
     # python execute.py --yyyymmdd 20200305;
+
+    $ month_range -s 202001 -e 202003                                                                          jhengsh@Jhengshs-MBP
+    # 202001
+    # 202002
+    # 202003
